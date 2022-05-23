@@ -58,7 +58,7 @@ func init() {
 		fmt.Println(err)
 	}
 	// Here you will define your flags and configuration settings.
-	NetCmd.AddCommand(pingCmd)
+
 	// Cobra supports Persistent Flags which will work for this command
 	// and all subcommands, e.g.:
 	// pingCmd.PersistentFlags().String("foo", "", "A help for foo")
